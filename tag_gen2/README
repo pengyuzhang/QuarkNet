@@ -1,0 +1,15 @@
+http://spqr.cs.umass.edu/moo
+
+For licensing information, see license.txt.
+
+This code is known to work only with IAR Embedded Workbench, including the
+Kickstart (code size limited) edition available from TI.
+
+= List of Compatible Readers =
+
+* Impinj Speedway
+* Impinj Speedway Revolution
+* ThingMagic Mercury 5
+* ThingMagic Mercury 5e
+* ThingMagic Mercury 6
+* Michael Buettner's GNU Radio gen2_rfid reader (YMMV)
