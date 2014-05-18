@@ -27,13 +27,13 @@ class my_top_block(gr.top_block):
         amplitude = 30000
 
 	if MATLAB_OUTPUT:
-		rx_out = gr.file_sink(gr.sizeof_gr_complex, "./rx.out")
+		#rx_out = gr.file_sink(gr.sizeof_gr_complex, "./rx.out")
 	        matched_filter_out = gr.file_sink(gr.sizeof_gr_complex, "./matched_filter.out")
-		#command_gate_out = gr.file_sink(gr.sizeof_gr_complex, "./command_gate.out")
-		#agc_out = gr.file_sink(gr.sizeof_gr_complex, "./agc.out")
-		#mag_out = gr.file_sink(gr.sizeof_float, "./mag.out")
-		#center_out = gr.file_sink(gr.sizeof_float, "./center.out")
-	        #mm_out = gr.file_sink(gr.sizeof_float, "./mm.out")
+		command_gate_out = gr.file_sink(gr.sizeof_gr_complex, "./command_gate.out")
+		agc_out = gr.file_sink(gr.sizeof_gr_complex, "./agc.out")
+		mag_out = gr.file_sink(gr.sizeof_float, "./mag.out")
+		center_out = gr.file_sink(gr.sizeof_float, "./center.out")
+	        mm_out = gr.file_sink(gr.sizeof_float, "./mm.out")
 		#reader_out = gr.file_sink(gr.sizeof_float, "./reader.out")
 		#agc_out = gr.file_sink(gr.sizeof_float, "./agc.out")
 
@@ -132,13 +132,13 @@ class my_top_block(gr.top_block):
 #################
 
 	if MATLAB_OUTPUT:
-		self.connect(rx, rx_out)
+		#self.connect(rx, rx_out)
 	        self.connect(matched_filt, matched_filter_out)
-		#self.connect(command_gate, command_gate_out)
-		#self.connect(agc, agc_out)
-		#self.connect(to_mag, mag_out)
-		#self.connect(center, center_out)
-	        #self.connect(mm, mm_out)
+		self.connect(command_gate, command_gate_out)
+		self.connect(agc, agc_out)
+		self.connect(to_mag, mag_out)
+		self.connect(center, center_out)
+	        self.connect(mm, mm_out)
 		#self.connect(self.reader, reader_out)
 
 
