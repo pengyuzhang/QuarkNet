@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # libtool - Provide generalized library-building support services.
-# Generated automatically by config.status (gr-rfid) 3.3git
+# Generated automatically by config.status (gr-rfid) 3.3git-ee9da806
 # Libtool was configured on host pengyu-ThinkPad-T400:
 # NOTE: Changes made to this file will be lost: look at ltmain.sh.
 #
