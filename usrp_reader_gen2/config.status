@@ -448,7 +448,7 @@ Copyright (C) 2010 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/pengyu/QuarkNet/usrp_reader_gen2'
+ac_pwd='/home/pengyu/reader_default/trunk/rfid'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -783,7 +783,7 @@ fi
 
 
     PACKAGE='gr-rfid'
-    VERSION='3.3git-ee9da806'
+    VERSION='3.3git'
     TIMESTAMP=''
     RM='rm -f'
     ofile='libtool'
@@ -966,7 +966,7 @@ S["CFLAGS"]="-g -O2"
 S["CC"]="gcc"
 S["am__untar"]="tar -xf -"
 S["am__tar"]="tar --format=ustar -chf - \"$$tardir\""
-S["AMTAR"]="${SHELL} /home/pengyu/QuarkNet/usrp_reader_gen2/missing --run tar"
+S["AMTAR"]="${SHELL} /home/pengyu/reader_default/trunk/rfid/missing --run tar"
 S["am__leading_dot"]="."
 S["SET_MAKE"]=""
 S["AWK"]="mawk"
@@ -974,13 +974,13 @@ S["mkdir_p"]="/bin/mkdir -p"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/pengyu/QuarkNet/usrp_reader_gen2/install-sh"
-S["MAKEINFO"]="${SHELL} /home/pengyu/QuarkNet/usrp_reader_gen2/missing --run makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/pengyu/QuarkNet/usrp_reader_gen2/missing --run autoheader"
-S["AUTOMAKE"]="${SHELL} /home/pengyu/QuarkNet/usrp_reader_gen2/missing --run automake-1.11"
-S["AUTOCONF"]="${SHELL} /home/pengyu/QuarkNet/usrp_reader_gen2/missing --run autoconf"
-S["ACLOCAL"]="${SHELL} /home/pengyu/QuarkNet/usrp_reader_gen2/missing --run aclocal-1.11"
-S["VERSION"]="3.3git-ee9da806"
+S["install_sh"]="${SHELL} /home/pengyu/reader_default/trunk/rfid/install-sh"
+S["MAKEINFO"]="${SHELL} /home/pengyu/reader_default/trunk/rfid/missing --run makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/pengyu/reader_default/trunk/rfid/missing --run autoheader"
+S["AUTOMAKE"]="${SHELL} /home/pengyu/reader_default/trunk/rfid/missing --run automake-1.11"
+S["AUTOCONF"]="${SHELL} /home/pengyu/reader_default/trunk/rfid/missing --run autoconf"
+S["ACLOCAL"]="${SHELL} /home/pengyu/reader_default/trunk/rfid/missing --run aclocal-1.11"
+S["VERSION"]="3.3git"
 S["PACKAGE"]="gr-rfid"
 S["CYGPATH_W"]="echo"
 S["am__isrc"]=""
@@ -988,7 +988,7 @@ S["INSTALL_DATA"]="${INSTALL} -m 644"
 S["INSTALL_SCRIPT"]="${INSTALL}"
 S["INSTALL_PROGRAM"]="${INSTALL}"
 S["DOCVER"]="3.3git"
-S["RELEASE"]="3.3git-ee9da806"
+S["RELEASE"]="3.3git"
 S["GIT"]="/usr/bin/git"
 S["target_os"]="linux-gnu"
 S["target_vendor"]="unknown"
@@ -1088,7 +1088,7 @@ D["PACKAGE_STRING"]=" \"\""
 D["PACKAGE_BUGREPORT"]=" \"\""
 D["PACKAGE_URL"]=" \"\""
 D["PACKAGE"]=" \"gr-rfid\""
-D["VERSION"]=" \"3.3git-ee9da806\""
+D["VERSION"]=" \"3.3git\""
 D["STDC_HEADERS"]=" 1"
 D["HAVE_SYS_TYPES_H"]=" 1"
 D["HAVE_SYS_STAT_H"]=" 1"

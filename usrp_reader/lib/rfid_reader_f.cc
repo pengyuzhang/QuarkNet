@@ -925,15 +925,15 @@ rfid_reader_f::send_read(){
  void
  rfid_reader_f::gen_query_cmd(){
 
-   int len_query = 13;
+   int len_query = 5;
 
    char * q_bits;
 
    q_bits = (char * )malloc(len_query);
    q_bits[0] = '\0';
    strcat(q_bits, d_CMD);
-   strcat(q_bits, d_CMD_sn);
-   strcat(q_bits, d_CMD);
+   //strcat(q_bits, d_CMD_sn);
+   //strcat(q_bits, d_CMD);
    //strcat(q_bits, d_CMD);
    //strcat(q_bits, d_CMD);
    //strcat(q_bits, d_CMD);
