@@ -8,7 +8,7 @@
 //This configures the reader to start a cycle every XXX ms. 
 // If false, the reader will start a new cycle immediately after one ends
 const bool TIMED_CYCLE_MODE = true;  
-const int READER_CYCLE_TIMER_RATE = 500000;
+const int READER_CYCLE_TIMER_RATE = 10000;
 ////////
 
 //These specify how many cycles, and how many rounds in each cycle, before the reader stops

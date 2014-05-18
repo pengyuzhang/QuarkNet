@@ -105,7 +105,6 @@ class my_top_block(gr.top_block):
         rx_subdev.set_gain(rx_gain)
         rx_subdev.set_auto_tr(False)
         rx_subdev.set_enable(True)
-	#rx.set_pga(0, 20)
         
         r = usrp.tune(rx, 0, rx_subdev, freq)
 
