@@ -16,7 +16,7 @@ import os
 import math
 import rfid
 
-MATLAB_OUTPUT = False
+MATLAB_OUTPUT = True
 
 log_file = open("all.log", "a")
 
@@ -97,14 +97,15 @@ class my_top_block(gr.top_block):
 #End TX
              
 #RX
-        rx = usrp.source_c(0, dec_rate, fusb_block_size = 512 * 4, fusb_nblocks = 16)
-        rx_subdev_spec = (0,0)
+        #rx = usrp.source_c(0, dec_rate, fusb_block_size = 512 * 4, fusb_nblocks = 16)
+	rx = usrp.source_c(0, 8, fusb_block_size = 512 * 4, fusb_nblocks = 16)
+        rx_subdev_spec = (1,0)
         rx.set_mux(usrp.determine_rx_mux_value(rx, rx_subdev_spec))
         rx_subdev = usrp.selected_subdev(rx, rx_subdev_spec)
-	#rx_subdev.select_rx_antenna('RX2')
         rx_subdev.set_gain(rx_gain)
         rx_subdev.set_auto_tr(False)
         rx_subdev.set_enable(True)
+	#rx.set_pga(0, 20)
         
         r = usrp.tune(rx, 0, rx_subdev, freq)
 
