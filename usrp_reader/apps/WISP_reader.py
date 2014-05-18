@@ -18,7 +18,7 @@ import rfid
 
 MATLAB_OUTPUT = True
 
-log_file = open("all.log", "a")
+log_file = open("data.log", "a")
 
 class my_top_block(gr.top_block):
     def __init__(self):
