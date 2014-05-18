@@ -1,8 +1,5 @@
 #!/usr/bin/env python
-#Developed by: Michael Buettner (buettner@cs.washington.edu)
-#Note: To use this application with the WISP, you will need to modify
-#      rfid_global_vars.h. Look for the WISP comments, uncomment those, and
-#      comment out the 40 kHz settings.
+#Developed by: Pengyu Zhang (pyzhang@cs.umass.edu)
 
 from gnuradio import gr, gru
 from gnuradio import usrp
@@ -46,7 +43,7 @@ class my_top_block(gr.top_block):
         
         matched_filt = gr.fir_filter_ccc(sw_dec, taps);  
 
-        agc = gr.agc2_cc(0.3, 1e-3, 1, 1, 100) 
+        agc = gr.agc2_cc(0.3, 1e-3, 1, 100, 100) 
      
         to_mag = gr.complex_to_mag()
 
