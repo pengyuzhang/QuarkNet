@@ -46,7 +46,7 @@ class my_top_block(gr.top_block):
         
         matched_filt = gr.fir_filter_ccc(sw_dec, taps);  
 
-        agc = gr.agc2_cc(0.3, 1e-3, 1, 1, 1000) 
+        agc = gr.agc2_cc(0.3, 1e-3, 1, 1, 100) 
      
         to_mag = gr.complex_to_mag()
 
@@ -97,8 +97,8 @@ class my_top_block(gr.top_block):
 #End TX
              
 #RX
-        #rx = usrp.source_c(0, dec_rate, fusb_block_size = 512 * 4, fusb_nblocks = 16)
-	rx = usrp.source_c(0, 8, fusb_block_size = 512 * 4, fusb_nblocks = 16)
+        rx = usrp.source_c(0, dec_rate, fusb_block_size = 512 * 4, fusb_nblocks = 16)
+	#rx = usrp.source_c(0, 8, fusb_block_size = 512 * 4, fusb_nblocks = 16)
         rx_subdev_spec = (1,0)
         rx.set_mux(usrp.determine_rx_mux_value(rx, rx_subdev_spec))
         rx_subdev = usrp.selected_subdev(rx, rx_subdev_spec)

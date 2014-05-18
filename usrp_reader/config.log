@@ -49,7 +49,7 @@ configure:2687: result: x86_64-unknown-linux-gnu
 configure:2721: checking for git
 configure:2739: found /usr/bin/git
 configure:2751: result: /usr/bin/git
-configure:2795: GNU Radio Release 3.3git-37a12b9e
+configure:2795: GNU Radio Release 3.3git-dbecd6da
 configure:2817: checking for a BSD-compatible install
 configure:2885: result: /usr/bin/install -c
 configure:2896: checking whether build environment is sane
@@ -157,7 +157,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:4428: result: gcc -E
@@ -176,7 +176,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:4492: checking for grep that handles long lines and -e
@@ -241,7 +241,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -302,7 +302,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -379,7 +379,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -413,7 +413,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -558,7 +558,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -711,7 +711,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -792,7 +792,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -837,7 +837,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -900,7 +900,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -974,7 +974,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1017,7 +1017,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1091,7 +1091,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1134,7 +1134,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1181,7 +1181,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1270,7 +1270,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1346,7 +1346,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1423,7 +1423,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1505,7 +1505,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1572,7 +1572,7 @@ configure: failed program was:
 | #define PACKAGE_BUGREPORT ""
 | #define PACKAGE_URL ""
 | #define PACKAGE "gr-rfid"
-| #define VERSION "3.3git-37a12b9e"
+| #define VERSION "3.3git-dbecd6da"
 | #define STDC_HEADERS 1
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
@@ -1902,7 +1902,7 @@ PYTHON_PREFIX='${prefix}'
 PYTHON_TRUE=''
 PYTHON_VERSION='2.7'
 RANLIB='ranlib'
-RELEASE='3.3git-37a12b9e'
+RELEASE='3.3git-dbecd6da'
 RM_PROG='/bin/rm'
 SED='/bin/sed'
 SET_MAKE=''
@@ -1912,7 +1912,7 @@ SWIG='/usr/bin/swig -c++'
 SWIG_PYTHON_CPPFLAGS='-I/usr/include/python2.7'
 SWIG_PYTHON_LIB='-lswigpy'
 SWIG_PYTHON_OPT='-python'
-VERSION='3.3git-37a12b9e'
+VERSION='3.3git-dbecd6da'
 XMLTO=''
 ac_ct_CC='gcc'
 ac_ct_CXX='g++'
@@ -1993,7 +1993,7 @@ target_vendor='unknown'
 #define PACKAGE_BUGREPORT ""
 #define PACKAGE_URL ""
 #define PACKAGE "gr-rfid"
-#define VERSION "3.3git-37a12b9e"
+#define VERSION "3.3git-dbecd6da"
 #define STDC_HEADERS 1
 #define HAVE_SYS_TYPES_H 1
 #define HAVE_SYS_STAT_H 1
