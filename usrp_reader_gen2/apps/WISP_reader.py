@@ -25,13 +25,13 @@ class my_top_block(gr.top_block):
            
         amplitude = 30000
 
-	rx_out = gr.file_sink(gr.sizeof_gr_complex, "./rx.out")
+	#rx_out = gr.file_sink(gr.sizeof_gr_complex, "./rx.out")
         matched_filter_out = gr.file_sink(gr.sizeof_gr_complex, "./matched_filter.out")
-        command_gate_out = gr.file_sink(gr.sizeof_gr_complex, "./command_gate.out")
+        #command_gate_out = gr.file_sink(gr.sizeof_gr_complex, "./command_gate.out")
         #mag_out = gr.file_sink(gr.sizeof_float, "./mag.out")
-        center_out = gr.file_sink(gr.sizeof_float, "./center.out")
+        #center_out = gr.file_sink(gr.sizeof_float, "./center.out")
         #agc_out = gr.file_sink(gr.sizeof_float, "./agc.out")
-        mm_out = gr.file_sink(gr.sizeof_float, "./mm.out")
+        #mm_out = gr.file_sink(gr.sizeof_float, "./mm.out")
 
         interp_rate = 128
         dec_rate = 8
@@ -123,13 +123,13 @@ class my_top_block(gr.top_block):
         self.connect(tag_decoder, self.reader, amp, to_complex, tx);
 #################
 
-	self.connect(rx, rx_out)        
+	#self.connect(rx, rx_out)        
         self.connect(matched_filt, matched_filter_out)
-        self.connect(command_gate, command_gate_out)
+        #self.connect(command_gate, command_gate_out)
         #self.connect(to_mag, mag_out)
-        self.connect(center, center_out)
+        #self.connect(center, center_out)
         #self.connect(agc2, agc_out)
-        self.connect(mm, mm_out)
+        #self.connect(mm, mm_out)
         
         
 
